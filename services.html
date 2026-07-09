@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soko Cleaning Maids Ltd</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu+Condensed&display=swap"
+    rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <section class="header">
+    <nav>
+       <a href="index.html"><img src="images/Bio/IMG-Bio-logo.jpg"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Contact Us</a></li>
+          <li><a href="">Blog</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1> Our Services</h1>
+  </section>
+
+    <!-- Servives -->
+<section class="services">
+<h1>services offered </h1>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos laborum illo alias ut vero consectetur!</p>
+ 
+<div class="row">
+  <div class="services-col">
+    <h3>Health and Safety</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim inventore non quod ex
+       adipisci dolore earum porro veritatis ipsam.
+       Alias.</p>
+  </div>
+ 
+   <div class="services-col">
+    <h3> Needles and Pins handling</h3> 
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim inventore non quod ex
+       adipisci dolore earum porro veritatis ipsam.
+       Alias.</p>
+  </div>
+  
+  <div class="services-col">
+    <h3>COSHH Awareness Training Certificate</h3> 
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim inventore non quod ex
+       adipisci dolore earum porro veritatis ipsam.
+       Alias.</p>
+  </div> 
+</div>
+</section>
+
+<!-- Facilities -->
+
+  <section class="Facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat reprehenderit id dolorum praesentium numquam ratione?</p>
+
+    <div class="row">
+      <div class="fac-col">
+        <img src="images/cooker a.jpg">
+        <h3>Complience Certified UK Health C1IC</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati esse quo deserunt 
+           sunt voluptates distinctio labore laborum?</p>
+      </div>
+      <div class="fac-col">
+        <img src="images/mopped floor.jpg">
+        <h3>House Calls C1IC</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati esse quo deserunt 
+           sunt voluptates distinctio labore laborum?</p>
+      </div>
+      <div class="fac-col">
+        <img src="images/after-party.avif">
+        <h3>After Party CleaningC1IC</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati esse quo deserunt 
+           sunt voluptates distinctio labore laborum?</p>
+      </div>
+    </div>    
+  </section> 
+
+
+
+
+
+
+
+
+
+  <!-- Footer -->
+  <section class="footer">
+    <h4>Our Promise</h4>
+    <p>At SOKO CLEANING MAIDS LTD, it's all about making a difference. We don't just clean—we transform spaces, exceed
+      expectations, and build lasting relationships with our clients through quality service you can rely on.
+      Let us take the stress out of cleaning, so you can enjoy more time doing what matters most.<br>Experience the SOKO
+      difference today.</p>
+    <div class="icons">
+      <i class="fa-solid fa-envelope"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-whatsapp"></i>
+      <i class="fa-brands fa-instagram"></i>
+    </div>
+    <p>Made by Soft-Mint | N-cube DevOps <i class="fa-regular fa-copyright"></i></p>
+  </section>
+
+
+  <!-- javaScript for Toggle Menu -->
+  <script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+
+
+</body>
+
+</html>
