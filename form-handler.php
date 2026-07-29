@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 // ============================================================
 //  form-handler.php — Soko Cleaning Maids Ltd
 //  Handles contact form submissions from Contact.html
@@ -144,4 +144,4 @@ if ($mail_sent) {
     header("Location: " . $error_page . "?status=error&msg=" . urlencode("Mail could not be sent. Please try again."));
 }
 exit;
-?>
+?> -->
